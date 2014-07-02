@@ -1,0 +1,5 @@
+**/bundled.js
+.idea/
+node_modules/
+bower_components/
+*.iml

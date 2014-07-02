@@ -1,0 +1,10 @@
+{
+  "name": "angular-experiments",
+  "version": "0.0.0",
+  "description": "Various experiments with angular structure and setup",
+  "main": "index.js",
+  "author": "Mr_Mig",
+  "devDependencies": {
+    "browserify": "^4.2.0"
+  }
+}
