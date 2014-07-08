@@ -3,6 +3,4 @@
 // all angular-related stuff encapsulated here
 module.exports = angular.module('user', [])
 	// define angular factory using our factory function
-		.factory('User', function () {
-			return require('./UserModel')
-		});
+		.factory('User', require('./UserModel'));
