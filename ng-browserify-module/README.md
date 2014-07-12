@@ -1,4 +1,5 @@
 This experiment shows the example of `angular` and `browserify` integration.
+
 This is a running example: you can play with the code.
 
 ## WAT?
