@@ -1,11 +1,12 @@
-This experiment shows the example of `angular` and `browserify` integration:
+This experiment shows the example of `angular` and `browserify` integration.
+This is a running example: you can play with the code.
 
 ## WAT?
 
-1. User "package" is angular+browserify module
+1. `/user` is a "package". The package is an angular+browserify module.
 2. Angular-dependent code is **separated** from CommonJS module code (see `user/index.js`)
-3. The whole package can be "required" and gives the access to angular "User" module (see `bundle.js`)
-4. The package is **path-independent** itself. The path dependency reside totally in `bundle.js`
+3. The package can be "required" (as if it is a component) and gives the access to angular "User" module (see `bundle.js`)
+4. The package is **path-independent** itself. The path dependency reside only in `bundle.js`
 
 ## Profit?
 
