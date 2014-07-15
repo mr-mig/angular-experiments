@@ -1,0 +1,10 @@
+#!/usr/bin/env node
+var browserify = require('browserify'),
+    fs = require('fs'),
+    stringify = require('stringify');
+
+var bundle = browserify()
+    .transform(stringify())
+    .add('./bundle.js');
+
+bundle.bundle().pipe(fs.createWriteStream('./bundled.js'))
