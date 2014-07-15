@@ -5,6 +5,7 @@
   "main": "index.js",
   "author": "Mr_Mig",
   "devDependencies": {
-    "browserify": "^4.2.0"
+    "browserify": "^4.2.0",
+    "stringify": "^2.2.0"
   }
 }
