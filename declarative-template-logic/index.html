@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html ng-app="res">
+
+<head>
+	<script src="https://code.angularjs.org/1.2.22/angular.js"></script>
+	<script src="http://code.angularjs.org/1.2.14/angular-resource.js"></script>
+	<script src="bundle.js"></script>
+</head>
+
+<body ng-controller="ctrl as base">
+	<!-- request REST resource and bind it to 'base.user0' scope parameter-->
+	<resource url="user.json" bind-to="base.user0"></resource>
+
+	<div style="border: 1px solid red">
+		<!-- display user using 'base.user0' model -->
+		<user model="base.user0"></user>
+	</div>
+
+</body>
+
+</html>
