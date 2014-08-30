@@ -14,6 +14,26 @@ This is the example of declarative logic wiring in templates.
 1. All data relationships and binding between the resource and `user` directive is explicit in the template
 1. You can see all scope variables in a single template file
 
+## Notes
+
+1. `model` service and `model` directive should be moved to separate reusable components
+2. `model` service can be changed to `reactTo` service
+3. `<user model="base.user">` syntax can be changed to
+
+    option 1:
+    ```javascript
+    <model model="base.user">
+      <user></user>
+    </model>
+    ```
+
+    option 2:
+    ```javascript
+    <user>
+      <model model="base.user"></model>
+    </model>
+    ```
+
 ## Live code
 
 [See the example at plnkr](http://plnkr.co/edit/IzHdd54GQ5FSnBT6o8XX?p=preview)
