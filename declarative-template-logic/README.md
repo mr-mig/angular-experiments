@@ -16,7 +16,8 @@ This is the example of declarative logic wiring in templates.
 
 ## Notes
 
-1. `model` service and `model` directive should be moved to separate reusable components
+1. `model` service and `model` directive are meant to be reusable components
+1. `resource` directive is meant to be a reusable component
 2. `model` service can be changed to `reactTo` service
 3. `<user model="base.user">` syntax can be changed to
 
