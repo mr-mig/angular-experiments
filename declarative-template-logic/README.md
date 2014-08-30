@@ -21,14 +21,14 @@ This is the example of declarative logic wiring in templates.
 3. `<user model="base.user">` syntax can be changed to
 
     option 1:
-    ```javascript
+    ```html
     <model model="base.user">
       <user></user>
     </model>
     ```
 
     option 2:
-    ```javascript
+    ```html
     <user>
       <model model="base.user"></model>
     </model>
