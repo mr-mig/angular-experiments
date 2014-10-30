@@ -1,2 +1,2 @@
 module.exports = angular.module('hint', [])
-		.directive('hint', require('./hintDirective'));
+	.directive('hint', require('./hintDirective'));

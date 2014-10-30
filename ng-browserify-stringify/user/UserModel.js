@@ -11,7 +11,7 @@ User.prototype.getUserData = function () {
 };
 
 // I put exports at the bottom
-module.exports = function($log){
+module.exports = function ($log) {
 	return User;
 };
 
